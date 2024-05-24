@@ -27,10 +27,8 @@ I enjoy leveraging data to derive insights, build scalable data pipelines, and d
 <br>Member of Academic department/Leader of Software Team (BI6)
 
 ## Tools and Technologies
-- **Languages**: Python, JS...
+- **Program Languages**: Python, JS, C#.
 - **Frameworks/Libraries**: ReactJS, Angular, Pandas, Numpy, Matplotlib, Seaborn, Keras, Tensorflow,... 
-- **Databases**: [Adventure Work](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms), [KKBOX](https://www.kaggle.com/competitions/kkbox-churn-prediction-challenge/data), [Huge Stock Market Dataset](https://www.kaggle.com/datasets/borismarjanovic/price-volume-data-for-all-us-stocks-etfs)
-- **Tools**: PowerBI, Excel.
 
 ## Let's Connect
 - LinkedIn: [duannguyen2606](https://www.linkedin.com/in/duannguyen2606/)
