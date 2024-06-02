@@ -34,3 +34,4 @@ I enjoy leveraging data to derive insights, build scalable data pipelines, and d
 - LinkedIn: [duannguyen2606](https://www.linkedin.com/in/duannguyen2606/)
 - Email: [duannguyen2606@gmail.com](mailto:duannguyen2606@gmail.com)
 - Portfolio: [duan-n2d](https://duan-n2d.github.io/)
+<iframe src="https://duan-n2d.github.io/" width="100%" height="500px"></iframe>
