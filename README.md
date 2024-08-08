@@ -11,21 +11,6 @@ I enjoy leveraging data to derive insights, build scalable data pipelines, and d
 
 **[Coursera Google Business Intelligence Professional (April 2024 - May 2024)](https://coursera.org/share/b049321d82e58dbc2395ef1b6bdbd2a2)**
 
-<h2>My Expertise</h2>
-
-**Vietseeds Rise 2024 Program	(Nov 2023 – Present)**
-<br>RISE is a simulated company model to solve business case studies.
-<br>Strategy department
-<br>
-
-**ISONICX SOLUTION Co., Ltd. - Ho Chi Minh City, Vietnam	(Oct 2023 - Dec 2023)**
-<br>Isonicx is an official Salesforce Partner in Vietnam, who experienced in Salesforce CRM solutions, implementation, and integration CRM with other systems such as E-Commerce and ERP.
-<br>Volunteer
-<br>
-
-**Information Technology for Business Club (ITB Club) - Ho Chi Minh City, Vietnam	(Nov 2021 - Mar 2024)**
-<br>Member of Academic department/Leader of Software Team (BI6)
-
 ## Tools and Technologies
 - **Program Languages**: Python, JS, C#.
 - **Frameworks/Libraries**: ReactJS, Angular, Pandas, Numpy, Matplotlib, Seaborn, Keras, Tensorflow,... 
