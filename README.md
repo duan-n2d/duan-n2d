@@ -1,7 +1,9 @@
 <h1 align="center" color="blue">  Hello, I'm Duan Nguyen Duy 👋</h1>
 
 <h2>About Me</h2> 
-I enjoy leveraging data to derive insights, build scalable data pipelines, and develop innovative solutions to complex problems. I have a basic knowledge of BI tools, along with a growing business mindset. In the process of accumulating experience and seeking opportunities to apply data to support decision-making, with the desire to improve yourself and contribute to the development of the business.
+I love exploring data, understanding the issues surrounding it, leveraging data to derive insights. I have a basic knowledge of BI tools, along with an evolving business mindset. In the process of accumulating experience and looking for opportunities to apply data to support decision making, with the desire to improve myself and contribute to the development of the business.
+<br>
+Coding is also something I quite like, there is a lot of logic shown when programming something interesting.
 
 <h2>Education</h2>
 
