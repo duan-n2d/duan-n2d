@@ -14,7 +14,7 @@ Coding is also something I quite like, there is a lot of logic shown when progra
 **[Coursera Google Business Intelligence Professional (April 2024 - May 2024)](https://coursera.org/share/b049321d82e58dbc2395ef1b6bdbd2a2)**
 
 ## Tools and Technologies
-- **Program Languages**: Python, JS, C#.
+- **Program Languages**: Python, JS, C#, Java, R.
 - **Frameworks/Libraries**: ReactJS, Angular, Pandas, Numpy, Matplotlib, Seaborn, Keras, Tensorflow,... 
 
 ## Let's Connect
