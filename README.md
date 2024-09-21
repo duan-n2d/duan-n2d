@@ -15,7 +15,7 @@ Coding is also something I quite like, there is a lot of logic shown when progra
 
 ## Tools and Technologies
 - **Program Languages**: Python, JS, C#, Java, R.
-- **Frameworks/Libraries**: ReactJS, Angular, Pandas, Numpy, Matplotlib, Seaborn, Keras, Tensorflow,... 
+- **Frameworks/Libraries**: Azure, Pandas, Numpy, Matplotlib, Seaborn, Keras, Tensorflow, ReactJS, Angular,... 
 
 ## Let's Connect
 - LinkedIn: [duannguyen2606](https://www.linkedin.com/in/duannguyen2606/)
