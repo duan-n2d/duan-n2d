@@ -21,3 +21,6 @@ Coding is also something I quite like, there is a lot of logic shown when progra
 - LinkedIn: [duannguyen2606](https://www.linkedin.com/in/duannguyen2606/)
 - Email: [duannguyen2606@gmail.com](mailto:duannguyen2606@gmail.com)
 - Portfolio: [duan-n2d](https://duan-n2d.github.io/)
+
+## GitHub Trophy
+![GitHub Profile Trophy](https://github-profile-trophy.vercel.app/?username=duan-n2d&theme=Margin+Width)
