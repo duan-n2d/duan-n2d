@@ -9,7 +9,7 @@ Coding is also something I quite enjoy - there's a lot of logic shown when progr
 
 ## Experience
 
-**Data Analyst, Outsourcing Company (October 2024 - Present)**
+**Data Analyst, Antsomi Vietnam (October 2024 - Present)**
 * Implemented and optimized Antsomi CDP 365 solutions for multiple clients, resulting in improved customer data management
 * Created and managed audience segments based on behavioral and attribute data, enabling targeted marketing campaigns
 * Developed custom ETL processes to integrate data from multiple sources into a unified customer view
@@ -39,8 +39,8 @@ Coding is also something I quite enjoy - there's a lot of logic shown when progr
 - Marketing analytics
 
 ### Tools and Technologies
-- **Program Languages**: Python, JS, C#, Java, R
-- **Frameworks/Libraries**: Azure, Pandas, Numpy, Matplotlib, Seaborn, Keras, Tensorflow, YOLO
+- **Program Languages**: Python, Java, R, JS, C#, Apex (Salesforce)
+- **Frameworks/Libraries**: Azure, Pandas, Numpy, Matplotlib, Seaborn, Keras, Lighting Web Component (LWC), Tensorflow, YOLO, Web development framework
 - **Tools**: Antsomi CDP 365, PowerBI, Looker, Excel, Tableau
 
 ## Let's Connect
