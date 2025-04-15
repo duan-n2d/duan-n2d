@@ -1,21 +1,47 @@
-<h1 align="center" color="blue">  Hello, I'm Duan Nguyen Duy 👋</h1>
+<h1 align="center" color="blue">Hello, I'm Duan Nguyen Duy 👋</h1>
 
-<h2>About Me</h2> 
-I love exploring data, understanding the issues surrounding it, leveraging data to derive insights. I have a basic knowledge of BI tools, along with an evolving business mindset. In the process of accumulating experience and looking for opportunities to apply data to support decision making, with the desire to improve myself and contribute to the development of the business.
+## About Me
+I'm a data analyst with hands-on experience in Customer Data Platform (CDP) solutions, specializing in Antsomi CDP 365. I'm passionate about exploring data, understanding the issues surrounding it, and leveraging data to derive actionable insights. With practical knowledge in data integration, segmentation, and analytics reporting, I help organizations unlock the power of their customer data.
+
+My experience has strengthened my technical skills in BI tools while developing my business acumen. I excel at understanding requirements and delivering data solutions that address real business challenges.
+
+Coding is also something I quite enjoy - there's a lot of logic shown when programming something interesting.
+
+## Experience
+
+**Data Analyst, Outsourcing Company (October 2024 - Present)**
+* Implemented and optimized Antsomi CDP 365 solutions for multiple clients, resulting in improved customer data management
+* Created and managed audience segments based on behavioral and attribute data, enabling targeted marketing campaigns
+* Developed custom ETL processes to integrate data from multiple sources into a unified customer view
+* Built comprehensive dashboards and analytical reports to track campaign performance metrics
+* Collaborated directly with clients to understand business requirements and deliver actionable insights
+* Automated routine data tasks using Python, increasing team efficiency by 25%
+* Provided technical support and training to clients on CDP 365 platform features and capabilities
+
+## Education
+
+**University of Economics and Law, VNU-HCM, Vietnam (Sep 2021 - May 2025 (Expected))**
 <br>
-Coding is also something I quite like, there is a lot of logic shown when programming something interesting.
-
-<h2>Education</h2>
-
-**University of Economics and Law, VNU-HCM, Vietnam (Sep 2021 - Jul 2025 (Expected))**
-<br>Bachelor’s Degree in Management Information System
+**Bachelor's Degree in Management Information System**
 <br>
 
 **[Coursera Google Business Intelligence Professional (April 2024 - May 2024)](https://coursera.org/share/b049321d82e58dbc2395ef1b6bdbd2a2)**
 
-## Tools and Technologies
-- **Program Languages**: Python, JS, C#, Java, R.
-- **Frameworks/Libraries**: Azure, Pandas, Numpy, Matplotlib, Seaborn, Keras, Tensorflow, ReactJS, Angular,... 
+## Skills & Tools
+
+### Technical Skills
+- Customer Data Platform (CDP) implementation
+- Audience segmentation and analysis
+- ETL process development
+- Campaign analytics and reporting
+- Data visualization
+- SQL & data querying
+- Marketing analytics
+
+### Tools and Technologies
+- **Program Languages**: Python, JS, C#, Java, R
+- **Frameworks/Libraries**: Azure, Pandas, Numpy, Matplotlib, Seaborn, Keras, Tensorflow, YOLO
+- **Tools**: Antsomi CDP 365, PowerBI, Looker, Excel, Tableau
 
 ## Let's Connect
 - LinkedIn: [duannguyen2606](https://www.linkedin.com/in/duannguyen2606/)
