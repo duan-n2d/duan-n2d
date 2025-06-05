@@ -20,7 +20,7 @@ Coding is also something I quite enjoy - there's a lot of logic shown when progr
 
 ## Education
 
-**University of Economics and Law, VNU-HCM, Vietnam (Sep 2021 - May 2025 (Expected))**
+**University of Economics and Law, VNU-HCM, Vietnam (Sep 2021 - May 2025)**
 <br>
 **Bachelor's Degree in Management Information System**
 <br>
