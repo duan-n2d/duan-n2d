@@ -1,15 +1,23 @@
 <h1 align="center" color="blue">Hello, I'm Duan Nguyen Duy 👋</h1>
 
 ## About Me
-I'm a data analyst with hands-on experience in Customer Data Platform (CDP) solutions, specializing in Antsomi CDP 365. I'm passionate about exploring data, understanding the issues surrounding it, and leveraging data to derive actionable insights. With practical knowledge in data integration, segmentation, and analytics reporting, I help organizations unlock the power of their customer data.
+I'm a data engineer with hands-on experience in building and maintaining data pipelines, specializing in Apache Airflow orchestration and Salesforce Marketing Cloud integrations. My background includes working with Customer Data Platform (CDP) solutions, particularly Antsomi CDP 365. I'm passionate about exploring data, understanding the issues surrounding it, and leveraging data to derive actionable insights. With practical knowledge in data integration, ETL development, system monitoring, segmentation, and analytics reporting, I help organizations build robust and scalable data infrastructure while unlocking the power of their customer data.
 
-My experience has strengthened my technical skills in BI tools while developing my business acumen. I excel at understanding requirements and delivering data solutions that address real business challenges.
+My experience has strengthened my technical skills in data engineering tools, workflow automation, and BI tools while developing my business acumen. I excel at understanding requirements and delivering data solutions that address real business challenges.
 
 Coding is also something I quite enjoy - there's a lot of logic shown when programming something interesting.
 
 ## Experience
 
-**Data Analyst, Antsomi Vietnam (October 2024 - Present)**
+**Data Engineer, Merkle (A Dentsu Company) Vietnam (Present)**
+* Design and implement data integration pipelines using Apache Airflow for workflow orchestration and automation
+* Develop and maintain integrations with Salesforce Marketing Cloud for marketing automation and customer engagement
+* Monitor data pipeline health and performance, ensuring data quality and reliability across systems
+* Build scalable ETL processes to handle large-scale data processing and transformation
+* Collaborate with cross-functional teams to understand data requirements and deliver robust data solutions
+* Troubleshoot and resolve data integration issues, maintaining high system availability
+
+**Data Analyst, Antsomi Vietnam (October 2024 - December 2024)**
 * Implemented and optimized Antsomi CDP 365 solutions for multiple clients, resulting in improved customer data management
 * Created and managed audience segments based on behavioral and attribute data, enabling targeted marketing campaigns
 * Developed custom ETL processes to integrate data from multiple sources into a unified customer view
@@ -24,24 +32,29 @@ Coding is also something I quite enjoy - there's a lot of logic shown when progr
 <br>
 **Bachelor's Degree in Management Information System**
 <br>
-
 **[Coursera Google Business Intelligence Professional (April 2024 - May 2024)](https://coursera.org/share/b049321d82e58dbc2395ef1b6bdbd2a2)**
 
 ## Skills & Tools
 
 ### Technical Skills
+- Data pipeline development and orchestration
+- Apache Airflow workflow automation
+- Salesforce Marketing Cloud integration
+- ETL/ELT process design and implementation
+- Data quality monitoring and validation
 - Customer Data Platform (CDP) implementation
 - Audience segmentation and analysis
-- ETL process development
 - Campaign analytics and reporting
 - Data visualization
 - SQL & data querying
 - Marketing analytics
 
 ### Tools and Technologies
-- **Program Languages**: Python, Java, R, JS, C#, Apex (Salesforce)
-- **Frameworks/Libraries**: Azure, Pandas, Numpy, Matplotlib, Seaborn, Keras, Lighting Web Component (LWC), Tensorflow, YOLO, Web development framework
-- **Tools**: Antsomi CDP 365, PowerBI, Looker, Excel, Tableau
+- **Data Engineering**: Apache Airflow, Salesforce Marketing Cloud, Antsomi CDP 365
+- **Program Languages**: Python, Java, R, JS, C#, SQL, Apex (Salesforce)
+- **Frameworks/Libraries**: Azure, Pandas, Numpy, Matplotlib, Seaborn, Keras, Lightning Web Component (LWC), Tensorflow, YOLO, Web development frameworks
+- **BI & Analytics Tools**: PowerBI, Looker, Excel, Tableau
+- **Databases**: SQL Server, PostgreSQL, MySQL
 
 ## Let's Connect
 - LinkedIn: [duannguyen2606](https://www.linkedin.com/in/duannguyen2606/)
