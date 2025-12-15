@@ -9,7 +9,7 @@ Coding is also something I quite enjoy - there's a lot of logic shown when progr
 
 ## Experience
 
-**Data Engineer, Merkle (A Dentsu Company) Vietnam (Present)**
+**Data Engineer, Merkle Inc Vietnam (A Dentsu Company) (September 2025 - Present)**
 * Design and implement data integration pipelines using Apache Airflow for workflow orchestration and automation
 * Develop and maintain integrations with Salesforce Marketing Cloud for marketing automation and customer engagement
 * Monitor data pipeline health and performance, ensuring data quality and reliability across systems
@@ -17,7 +17,7 @@ Coding is also something I quite enjoy - there's a lot of logic shown when progr
 * Collaborate with cross-functional teams to understand data requirements and deliver robust data solutions
 * Troubleshoot and resolve data integration issues, maintaining high system availability
 
-**Data Analyst, Antsomi Vietnam (October 2024 - December 2024)**
+**Data Analyst, Antsomi Vietnam (October 2024 - September 2025)**
 * Implemented and optimized Antsomi CDP 365 solutions for multiple clients, resulting in improved customer data management
 * Created and managed audience segments based on behavioral and attribute data, enabling targeted marketing campaigns
 * Developed custom ETL processes to integrate data from multiple sources into a unified customer view
