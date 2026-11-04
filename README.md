@@ -44,22 +44,22 @@ flowchart LR
 ### 🚀 Junior Data Engineer | Dentsu – Merkle CXM
 `September 2025 – Present`
 - Defined and delivered the **Lead → Call (contacted) → Order (completed / cancelled) funnel** in Power BI with five-minute refreshes, joined on phone and uid, replacing Excel reporting for operations, agent management, and strategy teams.
-- Built a **Claude MCP semantic layer** on the data warehouse after a Hugging Face LLM prototype. Documented tables, columns, types, metrics, and relationships; created entity-level datasets, aggregation tools, per-user session access, and a 12-month query limit. Used daily by 10+ people.
+- Built a **Claude MCP semantic layer** on the data warehouse after a Hugging Face LLM prototype. Documented tables, columns, types, metrics, and relationships; created one source-of-truth dataset per entity, aggregation tools, per-user session IDs and secret-based access, and a 12-month query limit. Used daily by 10+ people.
 - Embedded SQL and Python data-quality checks in Airflow for source-to-target row counts, null and duplicate keys, freshness, and aggregate reconciliation.
 - Built and operate **10–20 bidirectional Salesforce Marketing Cloud integrations** with databases, APIs, and SFTP using Airflow, Python, and Automation Studio. Implemented incremental loads by timestamp or ID, duplicate-safe insert/upsert/overwrite, retries, and alerts.
-- Sole owner of a **lead-distribution platform** from design through monitoring, serving 8 teams / ~200 agents across ~100 campaigns and processing ~600k leads and ~1M call records monthly. A Next.js app and Python scheduler use agents' last-three-day call performance while balancing distribution, then send ZNS notifications. Replaced manual Excel assignment, reducing delays, duplicate/missed leads, and staff standby; monthly setup takes one day.
+- Sole owner of a **lead-distribution platform** from design through monitoring, serving 8 teams / ~200 agents across ~100 campaigns and processing ~600k leads and ~1M call records monthly. A Next.js app and Python scheduler use agents' last-three-day call performance while balancing distribution, then send real-time ZNS notifications. Replaced manual Excel assignment, reducing hours-long delays, duplicate/missed leads, and staff standby; setup is done once at the start of each month.
 - Designed the data flow from a day-partitioned call-center database to a **PostgreSQL DWH**, with Airflow DAGs running every 30 minutes to weekly.
 - Enabled campaign users to ask ad-hoc aggregate questions in natural language against raw tables, reducing one-off dashboard requests.
 - Run Airflow projects in Docker with GitHub/GitLab version control and GitHub Actions CI/CD.
 
 ### 📊 Data Analyst | Antsomi Co., Ltd
 `October 2024 – September 2025`
-- Built layered views (raw → intermediate → small data marts) for 15+ enterprise clients, turning partitioned source data into analysis-ready datasets on a platform with limited engine support.
+- Built layered views (raw → intermediate → small data marts) for 15+ enterprise clients, including PNJ, AEON Mall, Mega Market, Highland Coffee, and ACFC, turning partitioned source data into analysis-ready datasets across fashion, retail, F&B, e-commerce, and education.
 - Reconciled source-to-platform and raw-to-dashboard data; resolved primary-key mismatches by enforcing one profile per phone and labelling secondary numbers.
 - Delivered ~10 Power BI report types across fashion, retail, F&B, e-commerce, and education, including sales, journey performance, demographics, RFM, association rules, and site tracking.
 - Optimized SQL over 30M+ records per month with partition pruning, column selection, early filtering, pre-aggregation, and CTEs to temp tables, **cutting processing time 2–3×**.
 - Integrated 3–5 POS, e-commerce, CRM, and loyalty sources per client through APIs, SFTP, and databases, mapping data to a reusable standard schema.
-- Implemented Antsomi CDP 365 solutions, audience segmentation, campaign analytics, and client training and support.
+- Implemented Antsomi CDP 365 solutions and audience segments; clients used RFM clusters to target campaigns and association rules to design product bundles. Automated routine data tasks with Python, increasing team efficiency by 25%, and provided client training and technical support.
 
 ### 🧩 Developer Intern | ISONICX Solution Co., Ltd
 `October 2022 – December 2023`
