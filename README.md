@@ -1,12 +1,16 @@
 <p align="center">
-	<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Duan%20Nguyen%20Duy&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Data%20Engineer%20%7C%20Airflow%20%7C%20Salesforce%20Marketing%20Cloud%20%7C%20CDP&descAlignY=58&descSize=18" alt="banner" />
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Duan%20Nguyen%20Duy&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Analytics%20Engineer%20%7C%20SQL%20%7C%20Power%20BI%20%7C%20Airflow&descAlignY=58&descSize=18" alt="banner" />
 </p>
 
 <h1 align="center">Hello, I'm Duan Nguyen Duy 👋</h1>
 
 <p align="center">
+	Ho Chi Minh City | <a href="tel:0847468525">0847468525</a>
+</p>
+
+<p align="center">
 	<a href="https://readme-typing-svg.demolab.com">
-		<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=760&lines=Data+Engineer+%40+Merkle+Vietnam;Apache+Airflow+%7C+Salesforce+Marketing+Cloud;Customer+Data+Platform+%7C+Antsomi+CDP+365;Turning+customer+data+into+actionable+insights" alt="Typing SVG" />
+		<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=760&lines=Analytics+Engineer+%40+Merkle+CXM;SQL+%7C+Power+BI+%7C+Data+Modelling;Airflow+%7C+PostgreSQL+%7C+Salesforce+Marketing+Cloud;Turning+customer+data+into+actionable+insights" alt="Typing SVG" />
 	</a>
 </p>
 
@@ -20,114 +24,74 @@
 ---
 
 ## 🧑‍💻 About Me
-I'm a data engineer with hands-on experience in building and maintaining data pipelines, specializing in Apache Airflow orchestration and Salesforce Marketing Cloud integrations. My background includes working with Customer Data Platform (CDP) solutions, particularly Antsomi CDP 365. I'm passionate about exploring data, understanding the issues surrounding it, and leveraging data to derive actionable insights. With practical knowledge in data integration, ETL development, system monitoring, segmentation, and analytics reporting, I help organizations build robust and scalable data infrastructure while unlocking the power of their customer data.
+Analytics Engineer with 2+ years turning raw marketing, sales, and call-center data into reconciled datasets, data marts, and semantic layers. I defined the Lead → Call → Order funnel for operations and strategy teams, built layered views for 15+ enterprise clients at Antsomi, and created a Claude MCP semantic layer used daily by 10+ people. I combine strong SQL, data quality, and Power BI skills with the engineering depth to run the pipelines behind analytics.
 
-My experience has strengthened my technical skills in data engineering tools, workflow automation, and BI tools while developing my business acumen. I excel at understanding requirements and delivering data solutions that address real business challenges.
-
-Coding is also something I quite enjoy - there's a lot of logic shown when programming something interesting.
-
-## 🔄 Data Flow I Work With
+## 🔄 Analytics Data Flow
 
 ```mermaid
 flowchart LR
-		A[(Source Systems)] --> B[Apache Airflow<br/>Orchestration]
-		B --> C[ETL / ELT<br/>Transform & Validate]
-		C --> D[Salesforce<br/>Marketing Cloud]
-		C --> E[Antsomi<br/>CDP 365]
-		C --> F[(Data Warehouse)]
-		E --> G[Audience<br/>Segments]
-		F --> H[Dashboards<br/>PowerBI / Looker / Tableau]
-		G --> D
-		B -. monitoring .-> I{{Data Quality<br/>& Alerts}}
+    A[(Marketing, Sales<br/>and Call Data)] --> B[Airflow<br/>Ingestion & Quality]
+    B --> C[(PostgreSQL DWH)]
+    C --> D[Layered Models<br/>Raw → Marts]
+    D --> E[Metrics &<br/>Semantic Layer]
+    D --> F[Power BI<br/>Lead → Call → Order]
+    E --> G[Claude MCP<br/>Aggregate Questions]
+    C <--> H[Salesforce<br/>Marketing Cloud]
 ```
 
 ## 💼 Experience
 
-### 🚀 Data Engineer — Merkle Inc Vietnam (A Dentsu Company)
-`September 2025 - Present`
-* Design and implement data integration pipelines using Apache Airflow for workflow orchestration and automation
-* Develop and maintain integrations with Salesforce Marketing Cloud for marketing automation and customer engagement
-* Monitor data pipeline health and performance, ensuring data quality and reliability across systems
-* Build scalable ETL processes to handle large-scale data processing and transformation
-* Collaborate with cross-functional teams to understand data requirements and deliver robust data solutions
-* Troubleshoot and resolve data integration issues, maintaining high system availability
+### 🚀 Junior Data Engineer | Dentsu – Merkle CXM
+`September 2025 – Present`
+- Defined and delivered the **Lead → Call (contacted) → Order (completed / cancelled) funnel** in Power BI with five-minute refreshes, joined on phone and uid, replacing Excel reporting for operations, agent management, and strategy teams.
+- Built a **Claude MCP semantic layer** on the data warehouse after a Hugging Face LLM prototype. Documented tables, columns, types, metrics, and relationships; created entity-level datasets, aggregation tools, per-user session access, and a 12-month query limit. Used daily by 10+ people.
+- Embedded SQL and Python data-quality checks in Airflow for source-to-target row counts, null and duplicate keys, freshness, and aggregate reconciliation.
+- Built and operate **10–20 bidirectional Salesforce Marketing Cloud integrations** with databases, APIs, and SFTP using Airflow, Python, and Automation Studio. Implemented incremental loads by timestamp or ID, duplicate-safe insert/upsert/overwrite, retries, and alerts.
+- Sole owner of a **lead-distribution platform** from design through monitoring, serving 8 teams / ~200 agents across ~100 campaigns and processing ~600k leads and ~1M call records monthly. A Next.js app and Python scheduler use agents' last-three-day call performance while balancing distribution, then send ZNS notifications. Replaced manual Excel assignment, reducing delays, duplicate/missed leads, and staff standby; monthly setup takes one day.
+- Designed the data flow from a day-partitioned call-center database to a **PostgreSQL DWH**, with Airflow DAGs running every 30 minutes to weekly.
+- Enabled campaign users to ask ad-hoc aggregate questions in natural language against raw tables, reducing one-off dashboard requests.
+- Run Airflow projects in Docker with GitHub/GitLab version control and GitHub Actions CI/CD.
 
-### 📊 Data Analyst — Antsomi Vietnam
-`October 2024 - September 2025`
-* Implemented and optimized Antsomi CDP 365 solutions for multiple clients, resulting in improved customer data management
-* Created and managed audience segments based on behavioral and attribute data, enabling targeted marketing campaigns
-* Developed custom ETL processes to integrate data from multiple sources into a unified customer view
-* Built comprehensive dashboards and analytical reports to track campaign performance metrics
-* Collaborated directly with clients to understand business requirements and deliver actionable insights
-* Automated routine data tasks using Python, increasing team efficiency by 25%
-* Provided technical support and training to clients on CDP 365 platform features and capabilities
+### 📊 Data Analyst | Antsomi Co., Ltd
+`October 2024 – September 2025`
+- Built layered views (raw → intermediate → small data marts) for 15+ enterprise clients, turning partitioned source data into analysis-ready datasets on a platform with limited engine support.
+- Reconciled source-to-platform and raw-to-dashboard data; resolved primary-key mismatches by enforcing one profile per phone and labelling secondary numbers.
+- Delivered ~10 Power BI report types across fashion, retail, F&B, e-commerce, and education, including sales, journey performance, demographics, RFM, association rules, and site tracking.
+- Optimized SQL over 30M+ records per month with partition pruning, column selection, early filtering, pre-aggregation, and CTEs to temp tables, **cutting processing time 2–3×**.
+- Integrated 3–5 POS, e-commerce, CRM, and loyalty sources per client through APIs, SFTP, and databases, mapping data to a reusable standard schema.
+- Implemented Antsomi CDP 365 solutions, audience segmentation, campaign analytics, and client training and support.
+
+### 🧩 Developer Intern | ISONICX Solution Co., Ltd
+`October 2022 – December 2023`
+- Designed Salesforce data models with SOQL and developed and tested Lightning Web Components (LWC).
+
+## 🛠️ Skills
+
+- **Analytics engineering:** SQL tuning, window functions, CTEs, dimensional and layered modelling, metric definitions, documentation, semantic layers, reconciliation, data quality, Power BI
+- **Engineering:** Python, Airflow, PostgreSQL, incremental/idempotent loading, API/SFTP/database integration, Salesforce Marketing Cloud, GitHub/GitLab, Docker, GitHub Actions CI/CD
+- **Familiar:** dbt, PySpark, Azure Data Factory, Databricks, Synapse, Microsoft Fabric
+
+## 🚧 Projects
+
+- **Azure Lakehouse (Olist):** Bronze/Silver/Gold pipeline with Azure Data Factory ingestion, Databricks/PySpark transformations, Synapse star-schema warehouse, Key Vault, Azure AD, and Power BI. [GitHub profile](https://github.com/duan-n2d)
+- **Academic:** AdventureWorks BI with SSIS, SSAS, and Power BI; customer churn classification using MINIROCKET and LSTM (95% accuracy, F1 79%).
+
+## 🏅 Leadership
+
+- **Software Team Leader, ITB Club (2021–2024):** led two Business Intelligence competitions (Seasons 6 and 7), delivered two data analysis and BI workshops for 5,000+ students, and built Power BI dashboards to track program metrics.
+- **Subject Matter Advisor, BI Competition Season 9 (2025):** mentored student teams on methodology, dashboards, and data storytelling.
+
+## 📜 Certifications
+
+Microsoft DP-700 Fabric Data Engineer · DP-800 SQL AI Developer · Salesforce Data Cloud Consultant · Google Cloud Digital Leader
 
 ## 🎓 Education
 
-**University of Economics and Law, VNU-HCM, Vietnam** `Sep 2021 - May 2025`
+**B.Sc. Management Information Systems** | University of Economics and Law, VNU-HCM `2021 – 2025`
+
+Prospect Award, Data Got Talent 2023 · Full scholarship, VietSeeds Foundation (2021–2025)
 <br>
-**Bachelor's Degree in Management Information System**
-<br>
-**[Coursera Google Business Intelligence Professional (April 2024 - May 2024)](https://coursera.org/share/b049321d82e58dbc2395ef1b6bdbd2a2)**
-
-## 🛠️ Skills & Tools
-
-### Technical Skills
-- Data pipeline development and orchestration
-- Apache Airflow workflow automation
-- Salesforce Marketing Cloud integration
-- ETL/ELT process design and implementation
-- Data quality monitoring and validation
-- Customer Data Platform (CDP) implementation
-- Audience segmentation and analysis
-- Campaign analytics and reporting
-- Data visualization
-- SQL & data querying
-- Marketing analytics
-
-### Tools and Technologies
-
-**Data Engineering**
-
-![Apache Airflow](https://img.shields.io/badge/Apache%20Airflow-017CEE?style=flat-square&logo=apacheairflow&logoColor=white)
-![Salesforce Marketing Cloud](https://img.shields.io/badge/Salesforce%20Marketing%20Cloud-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
-![Antsomi CDP 365](https://img.shields.io/badge/Antsomi%20CDP%20365-6C3FC5?style=flat-square)
-
-**Program Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=databricks&logoColor=white)
-![Apex](https://img.shields.io/badge/Apex%20(Salesforce)-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
-
-**Frameworks / Libraries**
-
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
-![Seaborn](https://img.shields.io/badge/Seaborn-4C8CBF?style=flat-square)
-![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logoColor=black)
-![LWC](https://img.shields.io/badge/Lightning%20Web%20Component-00A1E0?style=flat-square&logo=salesforce&logoColor=white)
-![Web Frameworks](https://img.shields.io/badge/Web%20development%20frameworks-333333?style=flat-square)
-
-**BI & Analytics Tools**
-
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Looker](https://img.shields.io/badge/Looker-4285F4?style=flat-square&logo=looker&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-217346?style=flat-square&logo=microsoftexcel&logoColor=white)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-
-**Databases**
-
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+[Google Business Intelligence Professional Certificate](https://coursera.org/share/b049321d82e58dbc2395ef1b6bdbd2a2) `April 2024 – May 2024`
 
 ## 📈 GitHub Stats
 
