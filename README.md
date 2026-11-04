@@ -5,7 +5,7 @@
 <h1 align="center">Hello, I'm Duan Nguyen Duy 👋</h1>
 
 <p align="center">
-	Ho Chi Minh City | <a href="tel:0847468525">0847468525</a>
+	Ho Chi Minh City
 </p>
 
 <p align="center">
