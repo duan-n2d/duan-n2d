@@ -17,7 +17,7 @@
 <p align="center">
 	<a href="https://www.linkedin.com/in/duannguyen2606/"><img src="https://img.shields.io/badge/LinkedIn-duannguyen2606-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 	<a href="mailto:duannguyen2606@gmail.com"><img src="https://img.shields.io/badge/Email-duannguyen2606@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-	<a href="https://duan-n2d.github.io/"><img src="https://img.shields.io/badge/Portfolio-duan--n2d.github.io-181717?style=for-the-badge&logo=githubpages&logoColor=white" alt="Portfolio" /></a>
+	<a href="https://github.com/duan-n2d"><img src="https://img.shields.io/badge/GitHub-duan--n2d-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
 	<img src="https://komarev.com/ghpvc/?username=duan-n2d&label=Profile+views&color=2f81f7&style=for-the-badge" alt="Profile views" />
 </p>
 
@@ -135,7 +135,7 @@ Prospect Award, Data Got Talent 2023 · Full scholarship, VietSeeds Foundation (
 ## 🤝 Let's Connect
 - LinkedIn: [duannguyen2606](https://www.linkedin.com/in/duannguyen2606/)
 - Email: [duannguyen2606@gmail.com](mailto:duannguyen2606@gmail.com)
-- Portfolio: [duan-n2d](https://duan-n2d.github.io/)
+- GitHub: [duan-n2d](https://github.com/duan-n2d)
 
 <p align="center">
 	<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer" alt="footer" />
