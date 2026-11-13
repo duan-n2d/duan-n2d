@@ -71,10 +71,18 @@ flowchart LR
 - **Engineering:** Python, Airflow, PostgreSQL, incremental/idempotent loading, API/SFTP/database integration, Salesforce Marketing Cloud, GitHub/GitLab, Docker, GitHub Actions CI/CD
 - **Familiar:** dbt, PySpark, Azure Data Factory, Databricks, Synapse, Microsoft Fabric
 
-## 🚧 Projects
+## 🚀 Featured Projects
 
-- **Azure Lakehouse (Olist):** Bronze/Silver/Gold pipeline with Azure Data Factory ingestion, Databricks/PySpark transformations, Synapse star-schema warehouse, Key Vault, Azure AD, and Power BI. [GitHub profile](https://github.com/duan-n2d)
-- **Academic:** AdventureWorks BI with SSIS, SSAS, and Power BI; customer churn classification using MINIROCKET and LSTM (95% accuracy, F1 79%).
+| Project | What it shows | Stack |
+|---|---|---|
+| [**OpenLake Commerce Platform**](https://github.com/duan-n2d/openlake-commerce-platform) | Open-source streaming lakehouse: Postgres CDC → Kafka → Flink → Iceberg, dbt marts, quality gates, lineage, BI and API | Debezium, Kafka, Flink, Iceberg, Trino, dbt, Dagster, Great Expectations |
+| [**Elite Football DecisionOps Lakehouse**](https://github.com/duan-n2d/elite-football-club-decisionops-lakehouse) | Stakeholder-driven lakehouse with governed Gold data products, API, dashboard, and an AI copilot with SQL guardrails | Python, Spark/Delta, FastAPI, Streamlit, Databricks, Terraform |
+| [**WorldCup Pulse**](https://github.com/duan-n2d/worldcup-pulse) | $0 serverless near-real-time pipeline: incremental medallion ETL, HF Dataset storage, BI and DataOps apps | GitHub Actions, Cloudflare Workers, DuckDB, Streamlit |
+| [**Dylxn Assistant**](https://github.com/duan-n2d/dylxn-assistant) | Local-first RAG assistant over a Markdown data-engineering knowledge base | Python, Qdrant, E5 embeddings, Ollama, FastAPI |
+| [**Azure End-to-End DE**](https://github.com/duan-n2d/Azure-End-to-End-Data-Engineering-Solution) | On-prem SQL Server → ADLS medallion lakehouse → Synapse → Power BI | ADF, Databricks, Delta Lake, Synapse, Key Vault |
+| [**Analytics Case Studies**](https://github.com/duan-n2d/analytics-case-studies) | BI dashboards, RFM segmentation, ML experiments, and Data Got Talent 2024 submissions | Power BI, SQL, Python |
+
+**Learning & research:** [AI-Augmented DE Roadmap](https://github.com/duan-n2d/learning-data-platform) · [Modern Data Stack deck](https://duan-n2d.github.io/modern-data-stack/) · [Churn prediction with time-series classification](https://github.com/duan-n2d/Predicting-customers-churn-using-time-series-classification) (MINIROCKET, LSTM — 95% accuracy, F1 79%)
 
 ## 🏅 Leadership
 
