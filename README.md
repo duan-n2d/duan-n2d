@@ -75,6 +75,7 @@ flowchart LR
 
 | Project | What it shows | Stack |
 |---|---|---|
+| [**Customer Identity Platform**](https://github.com/duan-n2d/customer-identity-platform) | Identity resolution and Customer 360 across POS, e-commerce, CRM and loyalty: stable person IDs, data contracts, GDPR erasure, dbt gold layer, Delta export. Every number measured on synthetic data (98.8% precision, ablation across 3 seeds) | Python, DuckDB, Splink, dbt, Delta Lake, FastAPI, Airflow |
 | [**OpenLake Commerce Platform**](https://github.com/duan-n2d/openlake-commerce-platform) | Open-source streaming lakehouse: Postgres CDC → Kafka → Flink → Iceberg, dbt marts, quality gates, lineage, BI and API | Debezium, Kafka, Flink, Iceberg, Trino, dbt, Dagster, Great Expectations |
 | [**Elite Football DecisionOps Lakehouse**](https://github.com/duan-n2d/elite-football-club-decisionops-lakehouse) | Stakeholder-driven lakehouse with governed Gold data products, API, dashboard, and an AI copilot with SQL guardrails | Python, Spark/Delta, FastAPI, Streamlit, Databricks, Terraform |
 | [**WorldCup Pulse**](https://github.com/duan-n2d/worldcup-pulse) | $0 serverless near-real-time pipeline: incremental medallion ETL, HF Dataset storage, BI and DataOps apps | GitHub Actions, Cloudflare Workers, DuckDB, Streamlit |
