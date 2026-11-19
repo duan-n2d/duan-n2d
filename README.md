@@ -92,7 +92,24 @@ flowchart LR
 
 ## 📜 Certifications
 
-Microsoft DP-700 Fabric Data Engineer · DP-800 SQL AI Developer · Salesforce Data Cloud Consultant · Google Cloud Digital Leader
+<table>
+  <tr>
+    <td><img src="https://drm.my.salesforce.com/servlet/servlet.ImageServer?id=015Rf00000ZxOq9&oid=00DF0000000gZsu&lastMod=1772523539000" alt="Salesforce Data Cloud Consultant" width="80" /></td>
+    <td>Salesforce Data Cloud Consultant</td>
+  </tr>
+  <tr>
+    <td><img src="https://datakuity.com/wp-content/uploads/2025/05/image.png" alt="Microsoft DP-700 Fabric Data Engineer" width="80" /></td>
+    <td>Microsoft DP-700 Fabric Data Engineer</td>
+  </tr>
+  <tr>
+    <td><img src="https://thedatacommunity.org/wp-content/uploads/2026/07/dp-800_certification_logo_badge.png" alt="DP-800 SQL AI Developer" width="80" /></td>
+    <td>DP-800 SQL AI Developer</td>
+  </tr>
+  <tr>
+    <td><img src="https://images.credly.com/size/340x340/images/44994cda-b5b0-44cb-9a6d-d29b57163073/image.png" alt="Google Cloud Digital Leader" width="80" /></td>
+    <td>Google Cloud Digital Leader</td>
+  </tr>
+</table>
 
 ## 🎓 Education
 
@@ -115,12 +132,6 @@ Prospect Award, Data Got Talent 2023 · Full scholarship, VietSeeds Foundation (
 
 <p align="center">
 	<img src="https://github-readme-activity-graph.vercel.app/graph?username=duan-n2d&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
-</p>
-
-## 🏆 GitHub Trophy
-
-<p align="center">
-	<img src="https://github-profile-trophy.vercel.app/?username=duan-n2d&theme=flat" alt="GitHub Profile Trophy" />
 </p>
 
 ## 🐍 Contribution Snake
