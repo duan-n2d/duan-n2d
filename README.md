@@ -26,6 +26,35 @@
 ## 🧑‍💻 About Me
 Data engineer with 2+ years in analytics engineering and data quality, turning raw marketing, sales, and call-center data into reconciled datasets, data marts, and semantic layers. I defined the Lead → Call → Order funnel for operations and strategy teams, built layered views for 15+ enterprise clients at Antsomi, and created a Claude MCP semantic layer used daily by 10+ people. I combine strong SQL, data quality, and Power BI skills with the engineering depth to run the pipelines behind analytics.
 
+## 🚀 Featured Projects
+
+Every number below is measured by the repo's own scripts; each README has an "Honest limits" section.
+
+| Project | What it shows | Stack |
+|---|---|---|
+| [**Customer Identity Platform**](https://github.com/duan-n2d/customer-identity-platform) | Identity resolution and Customer 360 across POS, e-commerce, CRM and loyalty: stable person IDs, data contracts, GDPR erasure, dbt gold layer, Delta export. 98.8% precision and 99.9–100% day-over-day ID stability on 6,000 synthetic people over 4 daily runs; ablation across 3 seeds | Python, DuckDB, Splink, dbt, Delta Lake, FastAPI, Airflow |
+| [**Uplift Targeting Engine**](https://github.com/duan-n2d/uplift-targeting-engine) | Who should get a voucher when only 20% can? S/T/X-learners on Criteo's 14M-row randomised experiment with bootstrap Qini/AUUC and a leakage study. Top 20% yields 4× random's incremental conversions; on conversion it ties a plain response model, and the README says so | LightGBM, MLflow, FastAPI, Streamlit |
+| [**OSS Pulse**](https://github.com/duan-n2d/oss-pulse) | How fast do Spark, Airflow, Polars, dbt, DuckDB and 9 other data projects review and merge PRs? dbt-duckdb star schema (SCD2, incremental, contracts) over 38.9k real PRs, pseudonymised contributors, volume-anomaly monitoring, daily Actions → [live dashboard](https://duan-n2d.github.io/oss-pulse/). Newcomers wait 17.7 h for a first response vs 6.2 h for maintainers | dbt, DuckDB, GitHub API, GH Archive, GitHub Actions/Pages |
+| [**WorldCup Pulse**](https://github.com/duan-n2d/worldcup-pulse) | $0 serverless lakehouse on real API data (104 matches, 48 teams): medallion ETL, quality checks, a Bronze replay after the source went offline · [live app](https://huggingface.co/spaces/n2d/worldcup-pulse-overview) | GitHub Actions, DuckDB, Hugging Face, Streamlit |
+| [**Dylxn Assistant**](https://github.com/duan-n2d/dylxn-assistant) | Local-first RAG over a data-engineering knowledge base, evaluated on a 60-question golden set: hybrid retrieval hit@5 90% vs 78% semantic-only after fixing the keyword path | Python, Qdrant, E5, SQLite FTS5, Ollama, FastAPI |
+| [**Analytics Case Studies**](https://github.com/duan-n2d/analytics-case-studies) | BI dashboards, RFM segmentation, SQL marketing engine, and Data Got Talent 2024 submissions | Power BI, SQL, Python |
+
+**Prototypes (designed, not yet run end to end):** [OpenLake Commerce Platform](https://github.com/duan-n2d/openlake-commerce-platform) (Postgres CDC → Kafka → Flink → Iceberg, dbt, Dagster) · [Elite Football DecisionOps](https://github.com/duan-n2d/elite-football-club-decisionops-lakehouse) (governed data products; the runnable core is plain Python) · [Azure End-to-End DE](https://github.com/duan-n2d/Azure-End-to-End-Data-Engineering-Solution) (ADF pipelines; notebooks not included)
+
+**Learning & research:** [AI-Augmented DE Roadmap](https://github.com/duan-n2d/learning-data-platform) · [Modern Data Stack deck](https://duan-n2d.github.io/modern-data-stack/) · [Churn prediction with time-series classification](https://github.com/duan-n2d/Predicting-customers-churn-using-time-series-classification) (paper summary: MINIROCKET, LSTM)
+
+## 🔧 Open-source contributions
+
+| Project | Pull request | Status |
+|---|---|---|
+| Apache Spark | [Fix `min_periods` for `Rolling.count` to match pandas (SPARK-43432)](https://github.com/apache/spark/pull/60614) | open |
+| Apache Airflow | [Reject serde uuid and datetime payloads from a newer version](https://github.com/apache/airflow/pull/77012) | open |
+| Polars | [Preserve fractional scalar values in Series ops](https://github.com/pola-rs/polars/pull/30893) | open |
+| Apache Arrow JS | [Reject record batches with missing dictionaries](https://github.com/apache/arrow-js/pull/539) | open |
+| Fivetran dbt_recurly | [Order `is_most_recent_record` with nulls last so warehouses agree](https://github.com/fivetran/dbt_recurly/pull/57) | open |
+| wheelgap/tracker | [Optional python field so a note can retire per Python](https://github.com/wheelgap/tracker/pull/53) | merged |
+| Satellite mosaicking pipeline | [State the actual land/sea mask requirements](https://github.com/buckai-observatory/Automated-Cloud-Removal-and-Seamless-Satellite-Image-Mosaicking-Pipeline/pull/57) | merged |
+
 ## 🔄 Analytics Data Flow
 
 ```mermaid
@@ -70,35 +99,6 @@ flowchart LR
 - **Analytics engineering:** SQL tuning, window functions, CTEs, dimensional and layered modelling, metric definitions, documentation, semantic layers, reconciliation, data quality, Power BI
 - **Engineering:** Python, Airflow, PostgreSQL, incremental/idempotent loading, API/SFTP/database integration, Salesforce Marketing Cloud, GitHub/GitLab, Docker, GitHub Actions CI/CD
 - **Familiar:** dbt, PySpark, Azure Data Factory, Databricks, Synapse, Microsoft Fabric
-
-## 🚀 Featured Projects
-
-Every number below is measured by the repo's own scripts; each README has an "Honest limits" section.
-
-| Project | What it shows | Stack |
-|---|---|---|
-| [**Customer Identity Platform**](https://github.com/duan-n2d/customer-identity-platform) | Identity resolution and Customer 360 across POS, e-commerce, CRM and loyalty: stable person IDs, data contracts, GDPR erasure, dbt gold layer, Delta export. 98.8% precision and 99.9–100% day-over-day ID stability on 6,000 synthetic people over 4 daily runs; ablation across 3 seeds | Python, DuckDB, Splink, dbt, Delta Lake, FastAPI, Airflow |
-| [**Uplift Targeting Engine**](https://github.com/duan-n2d/uplift-targeting-engine) | Who should get a voucher when only 20% can? S/T/X-learners on Criteo's 14M-row randomised experiment with bootstrap Qini/AUUC and a leakage study. Top 20% yields 4× random's incremental conversions; on conversion it ties a plain response model, and the README says so | LightGBM, MLflow, FastAPI, Streamlit |
-| [**OSS Pulse**](https://github.com/duan-n2d/oss-pulse) | How fast do Spark, Airflow, Polars, dbt, DuckDB and 9 other data projects review and merge PRs? dbt-duckdb star schema (SCD2, incremental, contracts) over 38.9k real PRs, pseudonymised contributors, volume-anomaly monitoring, daily Actions → [live dashboard](https://duan-n2d.github.io/oss-pulse/). Newcomers wait 17.7 h for a first response vs 6.2 h for maintainers | dbt, DuckDB, GitHub API, GH Archive, GitHub Actions/Pages |
-| [**WorldCup Pulse**](https://github.com/duan-n2d/worldcup-pulse) | $0 serverless lakehouse on real API data (104 matches, 48 teams): medallion ETL, quality checks, a Bronze replay after the source went offline · [live app](https://huggingface.co/spaces/n2d/worldcup-pulse-overview) | GitHub Actions, DuckDB, Hugging Face, Streamlit |
-| [**Dylxn Assistant**](https://github.com/duan-n2d/dylxn-assistant) | Local-first RAG over a data-engineering knowledge base, evaluated on a 60-question golden set: hybrid retrieval hit@5 90% vs 78% semantic-only after fixing the keyword path | Python, Qdrant, E5, SQLite FTS5, Ollama, FastAPI |
-| [**Analytics Case Studies**](https://github.com/duan-n2d/analytics-case-studies) | BI dashboards, RFM segmentation, SQL marketing engine, and Data Got Talent 2024 submissions | Power BI, SQL, Python |
-
-**Prototypes (designed, not yet run end to end):** [OpenLake Commerce Platform](https://github.com/duan-n2d/openlake-commerce-platform) (Postgres CDC → Kafka → Flink → Iceberg, dbt, Dagster) · [Elite Football DecisionOps](https://github.com/duan-n2d/elite-football-club-decisionops-lakehouse) (governed data products; the runnable core is plain Python) · [Azure End-to-End DE](https://github.com/duan-n2d/Azure-End-to-End-Data-Engineering-Solution) (ADF pipelines; notebooks not included)
-
-**Learning & research:** [AI-Augmented DE Roadmap](https://github.com/duan-n2d/learning-data-platform) · [Modern Data Stack deck](https://duan-n2d.github.io/modern-data-stack/) · [Churn prediction with time-series classification](https://github.com/duan-n2d/Predicting-customers-churn-using-time-series-classification) (paper summary: MINIROCKET, LSTM)
-
-## 🔧 Open-source contributions
-
-| Project | Pull request | Status |
-|---|---|---|
-| Apache Spark | [Fix `min_periods` for `Rolling.count` to match pandas (SPARK-43432)](https://github.com/apache/spark/pull/60614) | open |
-| Apache Airflow | [Reject serde uuid and datetime payloads from a newer version](https://github.com/apache/airflow/pull/77012) | open |
-| Polars | [Preserve fractional scalar values in Series ops](https://github.com/pola-rs/polars/pull/30893) | open |
-| Apache Arrow JS | [Reject record batches with missing dictionaries](https://github.com/apache/arrow-js/pull/539) | open |
-| Fivetran dbt_recurly | [Order `is_most_recent_record` with nulls last so warehouses agree](https://github.com/fivetran/dbt_recurly/pull/57) | open |
-| wheelgap/tracker | [Optional python field so a note can retire per Python](https://github.com/wheelgap/tracker/pull/53) | merged |
-| Satellite mosaicking pipeline | [State the actual land/sea mask requirements](https://github.com/buckai-observatory/Automated-Cloud-Removal-and-Seamless-Satellite-Image-Mosaicking-Pipeline/pull/57) | merged |
 
 ## 🏅 Leadership
 
