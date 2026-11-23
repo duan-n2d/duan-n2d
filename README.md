@@ -1,5 +1,5 @@
 <p align="center">
-	<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Duan%20Nguyen%20Duy&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Analytics%20Engineer%20%7C%20SQL%20%7C%20Power%20BI%20%7C%20Airflow&descAlignY=58&descSize=18" alt="banner" />
+	<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=220&section=header&text=Duan%20Nguyen%20Duy&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=Data%20Engineering%20%C2%B7%20Analytics%20Engineering%20%C2%B7%20Data%20Quality&descAlignY=58&descSize=18" alt="banner" />
 </p>
 
 <h1 align="center">Hello, I'm Duan Nguyen Duy 👋</h1>
@@ -10,7 +10,7 @@
 
 <p align="center">
 	<a href="https://readme-typing-svg.demolab.com">
-		<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=760&lines=Analytics+Engineer+%40+Merkle+CXM;SQL+%7C+Power+BI+%7C+Data+Modelling;Airflow+%7C+PostgreSQL+%7C+Salesforce+Marketing+Cloud;Turning+customer+data+into+actionable+insights" alt="Typing SVG" />
+		<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=2F81F7&center=true&vCenter=true&width=760&lines=Data+Engineering+%40+Merkle+CXM;Analytics+Engineering+%7C+Data+Quality;Airflow+%7C+PostgreSQL+%7C+Salesforce+Marketing+Cloud;Turning+customer+data+into+actionable+insights" alt="Typing SVG" />
 	</a>
 </p>
 
@@ -24,7 +24,7 @@
 ---
 
 ## 🧑‍💻 About Me
-Analytics Engineer with 2+ years turning raw marketing, sales, and call-center data into reconciled datasets, data marts, and semantic layers. I defined the Lead → Call → Order funnel for operations and strategy teams, built layered views for 15+ enterprise clients at Antsomi, and created a Claude MCP semantic layer used daily by 10+ people. I combine strong SQL, data quality, and Power BI skills with the engineering depth to run the pipelines behind analytics.
+Data engineer with 2+ years in analytics engineering and data quality, turning raw marketing, sales, and call-center data into reconciled datasets, data marts, and semantic layers. I defined the Lead → Call → Order funnel for operations and strategy teams, built layered views for 15+ enterprise clients at Antsomi, and created a Claude MCP semantic layer used daily by 10+ people. I combine strong SQL, data quality, and Power BI skills with the engineering depth to run the pipelines behind analytics.
 
 ## 🔄 Analytics Data Flow
 
@@ -73,17 +73,31 @@ flowchart LR
 
 ## 🚀 Featured Projects
 
+Every number below is measured by the repo's own scripts; each README has an "Honest limits" section.
+
 | Project | What it shows | Stack |
 |---|---|---|
-| [**Customer Identity Platform**](https://github.com/duan-n2d/customer-identity-platform) | Identity resolution and Customer 360 across POS, e-commerce, CRM and loyalty: stable person IDs, data contracts, GDPR erasure, dbt gold layer, Delta export. Every number measured on synthetic data (98.8% precision, ablation across 3 seeds) | Python, DuckDB, Splink, dbt, Delta Lake, FastAPI, Airflow |
-| [**OpenLake Commerce Platform**](https://github.com/duan-n2d/openlake-commerce-platform) | Open-source streaming lakehouse: Postgres CDC → Kafka → Flink → Iceberg, dbt marts, quality gates, lineage, BI and API | Debezium, Kafka, Flink, Iceberg, Trino, dbt, Dagster, Great Expectations |
-| [**Elite Football DecisionOps Lakehouse**](https://github.com/duan-n2d/elite-football-club-decisionops-lakehouse) | Stakeholder-driven lakehouse with governed Gold data products, API, dashboard, and an AI copilot with SQL guardrails | Python, Spark/Delta, FastAPI, Streamlit, Databricks, Terraform |
-| [**WorldCup Pulse**](https://github.com/duan-n2d/worldcup-pulse) | $0 serverless near-real-time pipeline: incremental medallion ETL, HF Dataset storage, BI and DataOps apps | GitHub Actions, Cloudflare Workers, DuckDB, Streamlit |
-| [**Dylxn Assistant**](https://github.com/duan-n2d/dylxn-assistant) | Local-first RAG assistant over a Markdown data-engineering knowledge base | Python, Qdrant, E5 embeddings, Ollama, FastAPI |
-| [**Azure End-to-End DE**](https://github.com/duan-n2d/Azure-End-to-End-Data-Engineering-Solution) | On-prem SQL Server → ADLS medallion lakehouse → Synapse → Power BI | ADF, Databricks, Delta Lake, Synapse, Key Vault |
-| [**Analytics Case Studies**](https://github.com/duan-n2d/analytics-case-studies) | BI dashboards, RFM segmentation, ML experiments, and Data Got Talent 2024 submissions | Power BI, SQL, Python |
+| [**Customer Identity Platform**](https://github.com/duan-n2d/customer-identity-platform) | Identity resolution and Customer 360 across POS, e-commerce, CRM and loyalty: stable person IDs, data contracts, GDPR erasure, dbt gold layer, Delta export. 98.8% precision and 99.9–100% day-over-day ID stability on 6,000 synthetic people over 4 daily runs; ablation across 3 seeds | Python, DuckDB, Splink, dbt, Delta Lake, FastAPI, Airflow |
+| [**Uplift Targeting Engine**](https://github.com/duan-n2d/uplift-targeting-engine) | Who should get a voucher when only 20% can? S/T/X-learners on Criteo's 14M-row randomised experiment with bootstrap Qini/AUUC and a leakage study. Top 20% yields 4× random's incremental conversions; on conversion it ties a plain response model, and the README says so | LightGBM, MLflow, FastAPI, Streamlit |
+| [**WorldCup Pulse**](https://github.com/duan-n2d/worldcup-pulse) | $0 serverless lakehouse on real API data (104 matches, 48 teams): medallion ETL, quality checks, a Bronze replay after the source went offline · [live app](https://huggingface.co/spaces/n2d/worldcup-pulse-overview) | GitHub Actions, DuckDB, Hugging Face, Streamlit |
+| [**Dylxn Assistant**](https://github.com/duan-n2d/dylxn-assistant) | Local-first RAG over a data-engineering knowledge base, evaluated on a 60-question golden set: hybrid retrieval hit@5 90% vs 78% semantic-only after fixing the keyword path | Python, Qdrant, E5, SQLite FTS5, Ollama, FastAPI |
+| [**Analytics Case Studies**](https://github.com/duan-n2d/analytics-case-studies) | BI dashboards, RFM segmentation, SQL marketing engine, and Data Got Talent 2024 submissions | Power BI, SQL, Python |
 
-**Learning & research:** [AI-Augmented DE Roadmap](https://github.com/duan-n2d/learning-data-platform) · [Modern Data Stack deck](https://duan-n2d.github.io/modern-data-stack/) · [Churn prediction with time-series classification](https://github.com/duan-n2d/Predicting-customers-churn-using-time-series-classification) (MINIROCKET, LSTM — 95% accuracy, F1 79%)
+**Prototypes (designed, not yet run end to end):** [OpenLake Commerce Platform](https://github.com/duan-n2d/openlake-commerce-platform) (Postgres CDC → Kafka → Flink → Iceberg, dbt, Dagster) · [Elite Football DecisionOps](https://github.com/duan-n2d/elite-football-club-decisionops-lakehouse) (governed data products; the runnable core is plain Python) · [Azure End-to-End DE](https://github.com/duan-n2d/Azure-End-to-End-Data-Engineering-Solution) (ADF pipelines; notebooks not included)
+
+**Learning & research:** [AI-Augmented DE Roadmap](https://github.com/duan-n2d/learning-data-platform) · [Modern Data Stack deck](https://duan-n2d.github.io/modern-data-stack/) · [Churn prediction with time-series classification](https://github.com/duan-n2d/Predicting-customers-churn-using-time-series-classification) (paper summary: MINIROCKET, LSTM)
+
+## 🔧 Open-source contributions
+
+| Project | Pull request | Status |
+|---|---|---|
+| Apache Spark | [Fix `min_periods` for `Rolling.count` to match pandas (SPARK-43432)](https://github.com/apache/spark/pull/60614) | open |
+| Apache Airflow | [Reject serde uuid and datetime payloads from a newer version](https://github.com/apache/airflow/pull/77012) | open |
+| Polars | [Preserve fractional scalar values in Series ops](https://github.com/pola-rs/polars/pull/30893) | open |
+| Apache Arrow JS | [Reject record batches with missing dictionaries](https://github.com/apache/arrow-js/pull/539) | open |
+| Fivetran dbt_recurly | [Order `is_most_recent_record` with nulls last so warehouses agree](https://github.com/fivetran/dbt_recurly/pull/57) | open |
+| wheelgap/tracker | [Optional python field so a note can retire per Python](https://github.com/wheelgap/tracker/pull/53) | merged |
+| Satellite mosaicking pipeline | [State the actual land/sea mask requirements](https://github.com/buckai-observatory/Automated-Cloud-Removal-and-Seamless-Satellite-Image-Mosaicking-Pipeline/pull/57) | merged |
 
 ## 🏅 Leadership
 
@@ -124,24 +138,6 @@ Prospect Award, Data Got Talent 2023 · Full scholarship, VietSeeds Foundation (
 <p align="center">
 	<img height="170" src="https://github-readme-stats.vercel.app/api?username=duan-n2d&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub stats" />
 	<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=duan-n2d&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages" />
-</p>
-
-<p align="center">
-	<img src="https://streak-stats.demolab.com?user=duan-n2d&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</p>
-
-<p align="center">
-	<img src="https://github-readme-activity-graph.vercel.app/graph?username=duan-n2d&theme=tokyo-night&hide_border=true&area=true" alt="Contribution graph" />
-</p>
-
-## 🐍 Contribution Snake
-
-<p align="center">
-	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/duan-n2d/duan-n2d/output/github-snake-dark.svg" />
-		<source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/duan-n2d/duan-n2d/output/github-snake.svg" />
-		<img alt="Contribution snake" src="https://raw.githubusercontent.com/duan-n2d/duan-n2d/output/github-snake.svg" />
-	</picture>
 </p>
 
 ## 🤝 Let's Connect
