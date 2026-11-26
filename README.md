@@ -49,11 +49,12 @@ Every number below is measured by the repo's own scripts; each README has an "Ho
 |---|---|---|
 | Apache Spark | [Fix `min_periods` for `Rolling.count` to match pandas (SPARK-43432)](https://github.com/apache/spark/pull/60614) | open |
 | Apache Airflow | [Reject serde uuid and datetime payloads from a newer version](https://github.com/apache/airflow/pull/77012) | open |
-| Polars | [Preserve fractional scalar values in Series ops](https://github.com/pola-rs/polars/pull/30893) | open |
+| Polars | [Preserve fractional scalar values in Series ops](https://github.com/pola-rs/polars/pull/30893) | closed |
 | Apache Arrow JS | [Reject record batches with missing dictionaries](https://github.com/apache/arrow-js/pull/539) | open |
-| Fivetran dbt_recurly | [Order `is_most_recent_record` with nulls last so warehouses agree](https://github.com/fivetran/dbt_recurly/pull/57) | open |
+| Fivetran dbt_recurly | [Order `is_most_recent_record` with nulls last so warehouses agree](https://github.com/fivetran/dbt_recurly/pull/57) | closed |
 | wheelgap/tracker | [Optional python field so a note can retire per Python](https://github.com/wheelgap/tracker/pull/53) | merged |
 | Satellite mosaicking pipeline | [State the actual land/sea mask requirements](https://github.com/buckai-observatory/Automated-Cloud-Removal-and-Seamless-Satellite-Image-Mosaicking-Pipeline/pull/57) | merged |
+| Free LLM API Hub | [Add a Try it playground link for Jina AI Reader](https://github.com/pacocartones/free-llm-api-hub/pull/780) | merged |
 
 ## 🔄 Analytics Data Flow
 
