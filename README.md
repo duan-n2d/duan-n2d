@@ -49,9 +49,13 @@ Every number below is measured by the repo's own scripts; each README has an "Ho
 |---|---|---|
 | Apache Spark | [Fix `min_periods` for `Rolling.count` to match pandas (SPARK-43432)](https://github.com/apache/spark/pull/60614) | open |
 | Apache Airflow | [Reject serde uuid and datetime payloads from a newer version](https://github.com/apache/airflow/pull/77012) | open |
-| Polars | [Preserve fractional scalar values in Series ops](https://github.com/pola-rs/polars/pull/30893) | closed |
+| dlt | [Support delete-insert with `destination_scope` on Delta (filesystem)](https://github.com/dlt-hub/dlt/pull/4687) | open |
+| Apache Ossie (incubating) | [dbt converter: keep the time spine and aggregation time dimension](https://github.com/apache/ossie-converters/pull/309) | open |
+| PySATL | [Add the Pareto distribution family](https://github.com/PySATL/pysatl-core/pull/163) | open |
 | Apache Arrow JS | [Reject record batches with missing dictionaries](https://github.com/apache/arrow-js/pull/539) | open |
+| Polars | [Preserve fractional scalar values in Series ops](https://github.com/pola-rs/polars/pull/30893) | closed |
 | Fivetran dbt_recurly | [Order `is_most_recent_record` with nulls last so warehouses agree](https://github.com/fivetran/dbt_recurly/pull/57) | closed |
+| easystats/bayestestR | [`bayesian_as_frequentist()`: pass brms `shape` and `phi` formulas as `dispformula`](https://github.com/easystats/bayestestR/pull/806) | merged |
 | wheelgap/tracker | [Optional python field so a note can retire per Python](https://github.com/wheelgap/tracker/pull/53) | merged |
 | Satellite mosaicking pipeline | [State the actual land/sea mask requirements](https://github.com/buckai-observatory/Automated-Cloud-Removal-and-Seamless-Satellite-Image-Mosaicking-Pipeline/pull/57) | merged |
 | Free LLM API Hub | [Add a Try it playground link for Jina AI Reader](https://github.com/pacocartones/free-llm-api-hub/pull/780) | merged |
